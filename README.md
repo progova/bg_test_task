@@ -11,15 +11,17 @@ These components were build together with Docker.
 
 ## Running tests
 
-Server (with 3 workers):
+_Server (with 3 workers):_
 
+```
 git clone https://github.com/progova/bg_test_task
 
 cd bg_test_task
 
 docker-compose up --scale worker=3
+```
 
-
-Client:
-
+_Client:_
+```
 python client.py
+```
