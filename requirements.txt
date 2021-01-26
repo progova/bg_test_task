@@ -1,0 +1,5 @@
+flask
+msgpack-python
+celery[redis]
+requests
+numpy
