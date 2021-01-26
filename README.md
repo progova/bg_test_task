@@ -1,13 +1,11 @@
 # bg_test_task
 a web app emulating execution of a 'heavy' task in the background.
 
-although the app is simple itself, it is configured as it was a serious one.
+Although the app is simple itself, it is configured as it was a serious one.
 
 Flask has been chosen as a framework due to it's simplicity. 
-
 Asynchronous tasks are processed by Celery queue with RabbitMQ brocker help.
-
-These components were build together with Docker.
+These components were built together with Docker.
 
 ## Running tests
 
